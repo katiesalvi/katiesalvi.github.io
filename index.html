@@ -1,13 +1,30 @@
 <html>
 	<head>
-		<style>
-.potato {color:#ffa032;
-		font-family: "Helvetica" sans-serif;
-		font-size: 100px;}
+<link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
 
-.potato:hover {color: #333333;
+		<style>
+.potato {-webkit-animation: xoxo 10s;
+	-webkit-animation-iteration-count: infinite;
+	color:#3ACAD0;
+		font-family: 'Montserrat Alternates';
+		font-size: 100px;
+		-webkit-transition: color ease-out 1s;}
+
+@-webkit-keyframes xoxo {
+	0% {color: #ff8181;}
+	20% {color: #ffcb5a;}
+	40% {color: #5aee00;}
+	60% {color: #00a8ee;}
+	80% {color: #d28bff;}
+	100% {color:#ff8181;}
+}
+
+.potato:hover {color: #FE6C6E;
 				cursor: default;}
+
+body {background-image:url('images/tree_bark.png');}
 		</style>
+
 	</head>
 	<body>
 	<div class="potato">tralalalala</div>
