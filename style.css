@@ -3,11 +3,38 @@ body {
 	width: 1000px;
 	text-align: center;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: -100px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
+	padding-bottom: 10px;
 }
 html {
-	background: #ddd;
+	background-image:url('images/tree_bark.png');
+	background-attachment: fixed;
+}
+
+.potato {-webkit-animation: xoxo 5s;
+	-webkit-animation-iteration-count: infinite;
+		font-family: 'helvetica';
+		font-size: 15px;
+		-webkit-transition: margin-top ease 1s;}
+
+@-webkit-keyframes xoxo {
+	0% {color: #ff8181;}
+	20% {color: #ffcb5a;}
+	40% {color: #5aee00;}
+	60% {color: #00a8ee;}
+	80% {color: #d28bff;}
+	100% {color:#ff8181;}
+}
+
+h1 {
+	font-size: 200%;
+}
+
+.overflowbox {
+	width: 800px;
+	height: 300px;
+	overflow: auto;
 }
