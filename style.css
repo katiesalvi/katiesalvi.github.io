@@ -16,17 +16,17 @@ html {
 
 .potato {-webkit-animation: xoxo 5s;
 	-webkit-animation-iteration-count: infinite;
-		font-family: 'helvetica';
+		font-family: 'verdana';
 		font-size: 15px;
 		-webkit-transition: margin-top ease 1s;}
 
 @-webkit-keyframes xoxo {
-	0% {color: #ff8181;}
-	20% {color: #ffcb5a;}
-	40% {color: #5aee00;}
-	60% {color: #00a8ee;}
-	80% {color: #d28bff;}
-	100% {color:#ff8181;}
+	0% {color: #333;}
+	20% {color: #333;}
+	40% {color: #333;}
+	60% {color: #333;}
+	80% {color: #333;}
+	100% {color:#333;}
 }
 
 h1 {

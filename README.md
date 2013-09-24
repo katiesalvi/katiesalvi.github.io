@@ -1,5 +1,3 @@
-SOS I hate TextEdit why does my computer hate me
-katiesalvi.github.io
-====================
+Created by Codrops
 
-GD I Personal Archive
+Please read about our license: http://tympanus.net/codrops/licensing/
