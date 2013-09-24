@@ -1,22 +1,78 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Graphic Design I Fall 2013</title>
-<link href='style.css' rel='stylesheet' type='text/css'>
-
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>GD I Andy Mangold</title>
+		<meta name="description" content="Thumbnail Grid with Expanding Preview" />
+		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-	<div class="potato"><h1>graphic design</h1>
-
-		<p><img src="images/full_centipede.png">
-			<br><img src="images/cat_shirt.png">
-		<h2>The New Yorker Response</h2>
-		<p><blockquote>The New Yorker, a magazine started in 1925, has decided to change the overall design of their magazine.  The magazine isn’t making any dramatic changes, but simply wishes to refresh their look by incorporating small details into their current issues that they have used in the past, as well as editing the format to better suit all of the aspects of the magazine.
-<p>The format of The New Yorker has hardly changed since it’s first publication date, and the magazine is praised for its bravery in the matter of focusing on keeping its issues as consistent as possible.  Rea Irvin is responsible for the original look of The New Yorker, creating his own typeface, which has now been cleaned up and refurbished by typographers for further use in future issues.  The design team claims that their edits to the magazine’s overall design will be slight, but that some longtime readers may offer negative feedback for the issue’s changes.  David Remick says, “If the magazine fell on the floor and were three feet away, it would still be identifiable to longtime readers.”  The magazine will have a cleaner and more polished version of the Irvin typeface, as well as illustrations and layouts that will help to incorporate photography more fluidly.
-<p>Additionally, there is a new typeface being added to The New Yorker’s new layout called Neutraface — a typeface created by Christian Schwartz, based off of the work by modernist architect, Richard Neutra.  Schwartz uses the style that Neutra uses in his architectural pieces to inspire him with his typeface.  He creates bases from Neutra’s work, and fills in the rest of the lettering with whatever he pleases.  Some readers and designers are afraid that the type is not “New Yorker” enough for the magazine; Wyatt Mitchell, the creative director, responds to this with, “Because the brand is still so strongly rooted in the Art Deco tradition, Neutraface — a modern spin on a deco theme — offers us a new type-style that doesn’t feel misplaced or far-removed from our graphic tradition.”
-<p>The New Yorker uses something that designers call “slow design.”  The company doesn’t change much about their magazine with every update, but as the years progress, there is clearly a significant enough difference to notice.  However, the design doesn’t stray away from the original by much, and can be easily recognized by old and new readers.  The New Yorker claims that this is a revolutionary change for the magazine, since they are bringing in older elements, and adding some new ones to modernize the look and feel of each article.  I think it’s endearing that though these changes are so small and slight, that the company is treating them with such care and tenderness.  However, I am shocked that the magazine has changed so little over the decades.  Michael Bierut in his article In Praise of Slow Design commented, “Publication design is a field addicted to ceaseless reinvention,” which is a statement I have found to be true with a lot of designers’ work I see, whether it be the work of a professional company completely changing their marketing strategies and design work, or the designers around me at school, who are constantly changing their work in the blink of an eye.
-<p>What I find to be impressive is the level of motivation and discipline these designers have to stay as true to The New Yorker’s intent and audience as possible, but still refurbish the designs enough so that the magazine is still relevant.  “The New Yorker will be a reflection in word and picture of metropolitan life,” says Harold Ross, as stated in Bierut’s article.  I do believe that the magazine has stayed true to this statement over the years, keeping itself interesting and simple and relevant to the time period that it has become a part of.
-</blockquote>
-
-		</div>
+		<div class="container">	
+			<header class="clearfix">
+				<h1>Graphic Design I <span>Katie Salvi</span></h1>	
+			</header>
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/full_centipede.png" data-title="Selfie" data-description="centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede centipede">
+							<img src="images/thumbs/centipede.jpg" alt="img01"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/cat_shirt.png" data-title="It's The Thought That Counts" data-description="gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift gift">
+							<img src="images/thumbs/cat_shirt.jpg" alt="img02"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/newyorker.png" data-title="The Pen is Mightier" data-description="The New Yorker, a magazine started in 1925, has decided to change the overall design of their magazine.  The magazine isn’t making any dramatic changes, but simply wishes to refresh their look by incorporating small details into their current issues that they have used in the past, as well as editing the format to better suit all of the aspects of the magazine.
+						<p>The format of The New Yorker has hardly changed since it’s first publication date, and the magazine is praised for its bravery in the matter of focusing on keeping its issues as consistent as possible.  Rea Irvin is responsible for the original look of The New Yorker, creating his own typeface, which has now been cleaned up and refurbished by typographers for further use in future issues.  The design team claims that their edits to the magazine’s overall design will be slight, but that some longtime readers may offer negative feedback for the issue’s changes.  David Remick says, “If the magazine fell on the floor and were three feet away, it would still be identifiable to longtime readers.”  The magazine will have a cleaner and more polished version of the Irvin typeface, as well as illustrations and layouts that will help to incorporate photography more fluidly.
+						<p>Additionally, there is a new typeface being added to The New Yorker’s new layout called Neutraface — a typeface created by Christian Schwartz, based off of the work by modernist architect, Richard Neutra.  Schwartz uses the style that Neutra uses in his architectural pieces to inspire him with his typeface.  He creates bases from Neutra’s work, and fills in the rest of the lettering with whatever he pleases.  Some readers and designers are afraid that the type is not “New Yorker” enough for the magazine; Wyatt Mitchell, the creative director, responds to this with, “Because the brand is still so strongly rooted in the Art Deco tradition, Neutraface — a modern spin on a deco theme — offers us a new type-style that doesn’t feel misplaced or far-removed from our graphic tradition.”
+						<p>The New Yorker uses something that designers call “slow design.”  The company doesn’t change much about their magazine with every update, but as the years progress, there is clearly a significant enough difference to notice.  However, the design doesn’t stray away from the original by much, and can be easily recognized by old and new readers.  The New Yorker claims that this is a revolutionary change for the magazine, since they are bringing in older elements, and adding some new ones to modernize the look and feel of each article.  I think it’s endearing that though these changes are so small and slight, that the company is treating them with such care and tenderness.  However, I am shocked that the magazine has changed so little over the decades.  Michael Bierut in his article In Praise of Slow Design commented, “Publication design is a field addicted to ceaseless reinvention,” which is a statement I have found to be true with a lot of designers’ work I see, whether it be the work of a professional company completely changing their marketing strategies and design work, or the designers around me at school, who are constantly changing their work in the blink of an eye.
+						<p>What I find to be impressive is the level of motivation and discipline these designers have to stay as true to The New Yorker’s intent and audience as possible, but still refurbish the designs enough so that the magazine is still relevant.  “The New Yorker will be a reflection in word and picture of metropolitan life,” says Harold Ross, as stated in Bierut’s article.  I do believe that the magazine has stayed true to this statement over the years, keeping itself interesting and simple and relevant to the time period that it has become a part of.">
+							<img src="images/thumbs/newyorker.jpg" alt="img03"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/1.jpg" data-title="Project #4" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet massa leo. Maecenas hendrerit, augue in porttitor ullamcorper, nunc ligula euismod mi, at blandit diam mi et nunc. Vestibulum accumsan libero dolor, et facilisis metus elementum id. Sed pulvinar sollicitudin venenatis. Vivamus tincidunt hendrerit magna, lacinia tempus risus eleifend sit amet. Donec lacus magna, fringilla a lobortis sed, dignissim in dolor. Nam lacinia pulvinar mauris eu bibendum. Mauris vulputate, sapien ac viverra commodo, mauris justo varius est, eu dapibus metus augue vel erat. Suspendisse mollis purus et augue pulvinar pretium. Nulla facilisi. Fusce et mattis diam, vitae rutrum risus. Maecenas orci velit, condimentum ac porta nec, consectetur tincidunt enim. Phasellus sed pellentesque lacus, sed pretium augue. Fusce dignissim scelerisque ante, vel suscipit nibh faucibus sagittis.">
+							<img src="images/thumbs/1.jpg" alt="img01"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/2.jpg" data-title="Project #5" data-description="Pellentesque eget tincidunt mi, id posuere mauris. Pellentesque molestie sapien a interdum hendrerit. Proin non gravida magna. Mauris porta ornare turpis, mollis fermentum lectus congue vitae. Donec suscipit sagittis lectus, nec varius augue blandit non. Nunc ornare feugiat molestie. Quisque vehicula pellentesque lectus eu placerat. Maecenas lectus risus, dapibus nec ipsum egestas, sagittis tristique est. Proin molestie imperdiet erat. Mauris a lectus pulvinar, suscipit erat eu, congue lectus. Sed tellus dui, faucibus id eros ut, viverra egestas velit. Curabitur vel diam sed mi congue tempor. Mauris iaculis, metus sed euismod posuere, est ipsum aliquam odio, eget molestie nibh lacus non sapien.">
+							<img src="images/thumbs/2.jpg" alt="img02"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/3.jpg" data-title="Project #6" data-description="Mauris risus odio, porttitor a diam at, consequat tincidunt orci. Nulla sit amet purus venenatis, blandit ipsum ac, varius felis. Suspendisse non aliquet nulla. Morbi semper non turpis eu consequat. Praesent facilisis eros vel felis lobortis tempus. Cras condimentum facilisis euismod. Pellentesque tincidunt, nisi eget scelerisque vehicula, eros urna tincidunt augue, vel adipiscing purus velit in nisl. Etiam suscipit feugiat nisi a dignissim.">
+							<img src="images/thumbs/3.jpg" alt="img03"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/1.jpg" data-title="Project #7" data-description="Sed hendrerit, erat quis consectetur dictum, mauris nisi tempus enim, vel rutrum leo massa iaculis leo. Nulla quis felis cursus, mollis velit eget, consectetur nisl. Nulla ac porta orci. Nam id dolor volutpat, fringilla arcu eget, dapibus sapien. Donec at malesuada turpis. Morbi commodo eu arcu id tempus. Pellentesque aliquam nunc eget nulla volutpat, sit amet fermentum ligula tempor. Ut mauris turpis, commodo eget lacinia quis, posuere et mi. Suspendisse id adipiscing ipsum. Phasellus ut erat commodo, mattis neque sit amet, euismod lectus. Suspendisse malesuada facilisis enim, ac vehicula magna elementum a. Etiam risus risus, tristique ut interdum nec, ornare non enim. Donec tincidunt sodales tempor. Nulla odio leo, condimentum ac tempus rhoncus, pharetra nec ipsum. Sed euismod felis ligula, non accumsan sapien adipiscing at. Phasellus sollicitudin leo at nulla porta, vel molestie enim elementum.">
+							<img src="images/thumbs/1.jpg" alt="img01"/>
+						</a>
+					</li>
+					<li>
+						<a href="http://katiesalvi.github.io/" data-largesrc="images/2.jpg" data-title="Project #8" data-description="Suspendisse sed est urna. In eros arcu, fringilla at luctus quis, egestas ac arcu. Vestibulum dignissim massa risus. Etiam iaculis elementum massa et mollis. Vestibulum eget eros felis. Etiam tempus lorem dui. Phasellus vulputate eget dolor nec varius. Mauris ut est in enim adipiscing pharetra in nec ante. Vestibulum sodales risus id justo dapibus euismod. Nulla lobortis neque non urna posuere dictum. Ut a nibh interdum, adipiscing ligula sit amet, auctor dui. Duis porttitor eu eros nec fermentum. Nullam luctus eros quis dui porta, euismod rhoncus felis consectetur. Proin eu ligula mattis, congue ante in, mollis purus.">
+							<img src="images/thumbs/2.jpg" alt="img02"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
 	</body>
 </html>
